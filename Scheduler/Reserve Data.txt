@@ -1,0 +1,326 @@
+insert into general values(1, "Server","Dobrik", "David", "610-555-2222", 11.03, 3, "dd2222","S3r:v3r5");
+insert into general values(2, "Server","Donaldson", "Jimmy", "610-555-5463", 9.45, 3, "jd5463","S3r:v3r5");
+insert into general values(3, "Server","Eacott", "Tannar", "484-555-8495", 10.43, 4, "te8495","S3r:v3r5");
+insert into general values(4, "Server","Kjelberg", "Felix", "215-555-9008", 11.23, 3, "fk9008","S3r:v3r5");
+insert into general values(5, "Server","Koshy", "Liza", "212-555-3392", 11.50, 3, "lk3392","S3r:v3r5");
+insert into general values(6, "Server","Vietch", "James", "609-555-0948", 11.04, 7, "jv0984","S3r:v3r5");
+insert into general values(7, "Server","Marbles", "Jenna", "484-555-5445", 10.61, 1, "jm5445","S3r:v3r5");
+insert into general values(8, "Server","McLaughlin", "Rhett", "248-555-4476", 10.22, 5, "rm4476","S3r:v3r5");
+insert into general values(9, "Server","Mulaney", "John", "717-555-3245", 9.87, 3, "jm3254","S3r:v3r5");
+insert into general values(10, "Server","Neal", "Link", "267-555-3333", 9.55, 1, "ln3333","S3r:v3r5");
+insert into general values(11, "Server","Stirling", "Lindsey", "215-555-2313", 10.54, 0,"ls2313", "S3r:v3r5");
+insert into general values(12, "Server","Toney", "Tyler", "215-555-1111", 10.25, 5, "tt1111","S3r:v3r5");
+
+insert into general values(13, "Preparers","D Amelio", "Charli", "267-555-1323", 15.37, 5, "cd1323","Pr3-p4r3rs");
+insert into general values(14, "Preparers","Gray", "Loren", "212-555-1123", 15.78, 3, "lg1123","Pr3-p4r3rs");
+insert into general values(15, "Preparers","Hancher", "Kristen", "484-555-0448", 15.25, 6, "kh0448","Pr3-p4r3rs");
+insert into general values(16, "Preparers","Hudson", "Chase", "215-555-4223", 16.02, 6, "ch4223","Pr3-p4r3rs");
+insert into general values(17, "Preparers","King", "Zach", "609-555-6672", 14.55, 0, "zk6672","Pr3-p4r3rs");
+insert into general values(18, "Preparers","Knight", "Spencer", "610-555-3340", 15.10, 5, "sk3340","Pr3-p4r3rs");
+insert into general values(19, "Preparers","Martin", "Ariel", "267-555-8790", 15.44, 1, "am8790", "Pr3-p4r3rs");
+insert into general values(20, "Preparers","Rae", "Addison", "610-555-3524", 14.68, 5, "ar3524", "Pr3-p4r3rs");
+
+
+insert into general values(21, "Admin","Cerf", "Vint", "212-555-00000", 0, 0, "vc0000","M4gm4.Adm1n");
+
+insert into events values(1, "Comic-Con", "San Diego Convention Center", "111 W. Harbor Drive San Diego, CA  92101", "619-525-5000", "founder@detroitcomics.com",  "Shel Dorf", "2020-07-18", 6);
+insert into events values(2, "E3", "Los Angeles Convention Center", "1202 S. Figueroa Street Los Angeles, CA 90015", "213-741-1151", "ceo@esa.com",  "Stanley Pierre-Louis", "2020-07-09", 5);
+insert into events values(3, "MegaCon", "Orange County ConventionCenter", "9800 International Drive Orlando, FL 32819", "407-685-9800", "superhero@marvel.com",  "Stan Lee", "2020-07-05", 2);
+insert into events values(4, "PAX West", "Washington State Convention Center", "705 Pike Street Seattle, WA  98101", "206-694-5000", "jerryh@pennyarcade.org",  "Jerry Holkins", "2020-07-20", 3);
+insert into events values(5, "Playlist Live", "World Center Mariott", "8701 World Center Drive Orlando, FL 32821", "407-239-4200", "chen@youtube.com",  "Steve Chen", "2020-07-26", 5);
+insert into events values(6, "VidCon", "Anaheim Convention Center", "800 W. Katella Avenue Anaheim, CA 92802", "714-765-8950", "wmgates@microsoft.com",  "Bill Gates", "2020-07-01", 4);
+insert into events values(7, "WOAHX TikTok Conference", "Rio All-Suites Hotel and Casino", "111 W. Harbor Drive San Diego, CA  92101", "619-546-0621",  "founder@tiktok.com", "Zhang Yiming", "2020-07-15", 3.5);
+
+
+"dd2222",
+"jd5463",
+"te8495",
+"fk9008",
+"lk3392",
+"jv0984",
+"jm5445",
+"rm4476",
+"jm3254",
+"ln3333",
+"ls2313",
+"tt1111",
+
+"cd1323",
+"lg1123",
+"kh0448",
+"ch4223",
+"zk6672",
+"sk3340",
+"am8790",
+"ar3524",
+
+"vc0000",
+
+
+
+
+
+insert into vacationdays values(1, "2020-07-20");
+insert into vacationdays values(1, "2020-07-21");
+insert into vacationdays values(1, "2020-07-22");
+
+insert into vacationdays values(2, "2020-07-01");
+insert into vacationdays values(2, "2020-07-02");
+insert into vacationdays values(2, "2020-07-03");
+
+insert into vacationdays values(3, "2020-07-16");
+insert into vacationdays values(3, "2020-07-17");
+insert into vacationdays values(3, "2020-07-18");
+insert into vacationdays values(3, "2020-07-19");
+
+insert into vacationdays values(4, "2020-07-02");
+insert into vacationdays values(4, "2020-07-15");
+insert into vacationdays values(4, "2020-07-26");
+
+insert into vacationdays values(5, "2020-07-06");
+insert into vacationdays values(5, "2020-07-09");
+insert into vacationdays values(5, "2020-07-18");
+
+insert into vacationdays values(6, "2020-07-21");
+insert into vacationdays values(6, "2020-07-22");
+insert into vacationdays values(6, "2020-07-23");
+insert into vacationdays values(6, "2020-07-24");
+insert into vacationdays values(6, "2020-07-25");
+insert into vacationdays values(6, "2020-07-26");
+insert into vacationdays values(6, "2020-07-27");
+
+insert into vacationdays values(7, "2020-07-15");
+
+insert into vacationdays values(8, "2020-07-04");
+insert into vacationdays values(8, "2020-07-05");
+insert into vacationdays values(8, "2020-07-06");
+insert into vacationdays values(8, "2020-07-07");
+insert into vacationdays values(8, "2020-07-08");
+
+insert into vacationdays values(9, "2020-07-17");
+insert into vacationdays values(9, "2020-07-19");
+insert into vacationdays values(9, "2020-07-20");
+
+insert into vacationdays values(10, "2020-07-15");
+
+insert into vacationdays values(12, "2020-07-01");
+insert into vacationdays values(12, "2020-07-02");
+insert into vacationdays values(12, "2020-07-03");
+insert into vacationdays values(12, "2020-07-04");
+insert into vacationdays values(12, "2020-07-05");
+
+
+
+
+insert into vacationdays values(13, "2020-07-03");
+insert into vacationdays values(13, "2020-07-04");
+insert into vacationdays values(13, "2020-07-05");
+insert into vacationdays values(13, "2020-07-06");
+
+insert into vacationdays values(14, "2020-07-12");
+insert into vacationdays values(14, "2020-07-16");
+insert into vacationdays values(14, "2020-07-20");
+
+insert into vacationdays values(15, "2020-07-26");
+insert into vacationdays values(15, "2020-07-27");
+insert into vacationdays values(15, "2020-07-28");
+insert into vacationdays values(15, "2020-07-29");
+insert into vacationdays values(15, "2020-07-30");
+insert into vacationdays values(15, "2020-07-31");
+
+insert into vacationdays values(16, "2020-07-15");
+insert into vacationdays values(16, "2020-07-16");
+insert into vacationdays values(16, "2020-07-17");
+insert into vacationdays values(16, "2020-07-18");
+insert into vacationdays values(16, "2020-07-19");
+insert into vacationdays values(16, "2020-07-20");
+
+insert into vacationdays values(18, "2020-07-22");
+insert into vacationdays values(18, "2020-07-23");
+insert into vacationdays values(18, "2020-07-24");
+insert into vacationdays values(18, "2020-07-25");
+insert into vacationdays values(18, "2020-07-26");
+
+
+
+
+insert into vacationdays values(19, "2020-07-26");
+
+insert into vacationdays values(20, "2020-07-07");
+insert into vacationdays values(20, "2020-07-08");
+insert into vacationdays values(20, "2020-07-09");
+insert into vacationdays values(20, "2020-07-10");
+insert into vacationdays values(20, "2020-07-11");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  $Matches=array_intersect($EventDates,$VacayDates);
+                echo implode(", ",$Matches);
+                echo "</br>";
+                // Finds the similarities, or the Vacation Days
+
+
+
+        
+                $Y= 0;
+                $X = 0;
+                while($X < $EventNum ) // Sets limit of cells to whatever Number of Events isempty($VacayDates)
+                {
+                    $Index = new ArrayIterator(array("2020-07-01", "2020-07-05", "2020-07-09", "2020-07-15", "2020-07-18", "2020-07-20",	"2020-07-26"));
+                    $cit = new CachingIterator($Index);
+                  if 
+
+
+                   if($Index[$X] == $Matches[$Y])
+                  {
+                    echo "<td style=' border:1px solid white'>O</td>";
+                    $Y++;
+                  }
+
+                  else if(empty($VacayDates))// Good
+                  {
+                    echo "<td style=' border:1px solid white'>Z</td>";
+                  }
+                  else // GOodish
+                  {
+                    echo "<td style=' border:1px solid white'></td>";
+                  }
+
+
+                  $X++;
+
+$("#Submission").click(function(){
+              $.ajax({
+                type:"POST",
+                url:"Admin.php",
+                data:
+                {
+                  VDRequest : VDRequest,
+                  Name :  <?php $_SESSION['FName'] ?>,
+
+
+                },
+                success:function(response){
+                  window.alert("Success");
+                },
+                error:function(){
+                  window.alert("Failure");
+                }
+              });//end ajax
+            });//end logout cli
+
+
+
+insert into workweeksheet values(11.03, 6, 1, 1, "David", "Dobrick","Server");
+insert into workweeksheet values(11.23, 6, 4, 1, "Felix", "Kjelberg","Server");
+insert into workweeksheet values(10.61, 6, 7, 1, "Jenna", "Marbles","Server");
+insert into workweeksheet values(10.22, 6, 8, 1, "Rhett", "McLaughlin","Server");
+insert into workweeksheet values(9.55, 6, 10, 1, "Link", "Neal","Server");
+insert into workweeksheet values(10.25, 6, 12, 1, "Tyler", "Toney","Server");
+insert into workweeksheet values(15.25, 6, 15, 1, "Kristen", "Hancher","Preparers");
+insert into workweeksheet values(15.44, 6, 19, 1, "Ariel", "Martin","Preparers");
+insert into workweeksheet values(14.68 , 6, 20, 1, "Addison", "Rae","Preparers");
+
+insert into workweeksheet values(11.03, 5, 1, 2, "David", "Dobrick","Server");
+insert into workweeksheet values(10.43, 5, 3, 2, "Tannar", "Eacott","Server");
+insert into workweeksheet values(10.61, 5, 7, 2, "Jenna", "Marbles","Server");
+insert into workweeksheet values(10.22, 5, 8, 2, "Rhett", "McLaughlin","Server");
+insert into workweeksheet values(9.55, 5, 10, 2, "Link", "Neal","Server");
+insert into workweeksheet values(10.25, 5, 12, 2, "Tyler", "Toney","Preparers");
+insert into workweeksheet values(16.02, 5, 16, 2, "Chase", "Hudson","Preparers");
+insert into workweeksheet values(15.10 , 5, 18, 2, "Spencer", "Knight","Preparers");
+insert into workweeksheet values(15.44, 5, 19, 2, "Ariel", "Martin","Preparers");
+
+insert into workweeksheet values(9.45 ,2, 2, 3, "Jimmy", "Donaldson","Server");
+insert into workweeksheet values(10.43 ,2, 3, 3, "Tannar", "Eacott","Server");
+insert into workweeksheet values(11.04, 2, 6, 3, "James", "Vietch","Server");
+insert into workweeksheet values(9.87 , 2, 9, 3, "John", "Mulaney","Server");
+insert into workweeksheet values(9.55 , 2, 10, 3, "Link", "Neal","Server");
+insert into workweeksheet values(10.54 , 2, 11, 3, "Lindsey", "Stirling","Server");
+insert into workweeksheet values(15.78, 2, 14, 3, "Loren", "Gray","Preparers");
+insert into workweeksheet values(15.25, 2, 16, 3, "Kristen", "Hancher","Preparers");
+insert into workweeksheet values(14.68, 2, 20, 3, "Addison", "Rae","Preparers");
+
+
+insert into workweeksheet values(9.45 , 3, 2, 4, "Jimmy", "Donaldson","Server");
+insert into workweeksheet values(10.43 , 3, 3, 4, "Tannar", "Eacott","Server");
+insert into workweeksheet values(11.23 , 3, 4, 4, "Felix", "Kjelberg","Server");
+insert into workweeksheet values(11.50, 3, 5, 4, "Liza", "Koshy","Server");
+insert into workweeksheet values(11.04, 3, 6, 4, "James", "Vietch","Server");
+insert into workweeksheet values(10.25 , 3, 12, 4, "Tyler", "Toney","Server");
+insert into workweeksheet values(15.25, 3, 15, 4, "Kristen", "Hancher","Preparers");
+insert into workweeksheet values(15.10 ,3, 18, 4, "Spencer", "Knight","Preparers");
+insert into workweeksheet values(15.44 ,3, 19, 4, "Ariel", "Martin","Preparers");
+
+insert into workweeksheet values(11.03, 5, 1, 5, "David", "Dobrick","Server");
+insert into workweeksheet values(10.43 , 5, 3, 5, "Tannar", "Eacott","Server");
+insert into workweeksheet values(10.61 , 5, 7, 5, "Jenna", "Marbles","Server");
+insert into workweeksheet values(9.87 , 5, 9, 5, "John", "Mulaney","Server");
+insert into workweeksheet values(10.54 , 5, 11, 5, "Lindsey", "Stirling","Server");
+insert into workweeksheet values(10.25 , 5, 12, 5, "Tyler", "Toney","Server");
+insert into workweeksheet values(15.37, 5, 13, 5, "Charli", "D Amelio","Preparers");
+insert into workweeksheet values(16.02, 5, 16, 5, "Chase", "Hudson","Preparers");
+insert into workweeksheet values(14.68, 5, 20, 5, "Addison", "Rae","Preparers");
+
+insert into workweeksheet values(11.03 , 4, 1, 6, "David", "Dobrick","Server");
+insert into workweeksheet values(11.23, 4, 4, 6, "Felix", "Kjelberg","Server");
+insert into workweeksheet values(11.50, 4, 5, 6, "Liza", "Koshy","Server");
+insert into workweeksheet values(10.22, 4, 8, 6, "Rhett", "McLaughlin","Server");
+insert into workweeksheet values(9.87 , 4, 9, 6, "John", "Mulaney","Server");
+insert into workweeksheet values(10.54 , 4, 11, 6, "Lindsey", "Stirling","Server");
+insert into workweeksheet values(15.37, 4, 13, 6, "Charli", "D Amelio","Preparers");
+insert into workweeksheet values(16.02, 4, 16, 6, "Chase", "Hudson","Preparers");
+insert into workweeksheet values(14.55, 4, 17, 6, "Zach", "King","Preparers");
+
+insert into workweeksheet values(9.45 , 3.5, 2, 7, "Jimmy", "Donaldson","Server");
+insert into workweeksheet values(11.50 , 3.5, 5, 7, "Liza", "Koshy","Server");
+insert into workweeksheet values(11.04 ,3.5, 6, 7, "James", "Vietch","Server");
+insert into workweeksheet values(10.22 ,3.5, 8, 7, "Rhett", "McLaughlin","Server");
+insert into workweeksheet values(9.87 , 3.5, 9, 7, "John", "Mulaney","Server");
+insert into workweeksheet values(10.54 ,3.5, 11, 7, "Lindsey", "Stirling","Server");
+insert into workweeksheet values(15.37, 3.5, 13, 7, "Charli", "D Amelio","Preparers");
+insert into workweeksheet values(15.78, 3.5, 14, 7, "Loren", "Gray","Preparers");
+insert into workweeksheet values(14.55, 3.5, 17, 7, "Zach", "King","Preparers");
+
+
+
+NO vacation Jimmy!
+
+
+
+Hope you liked my presentation 
+sorry for the audio
+no mic :( 
+Have a great day though!!!
+
+
+
+
+
+
+
+
+
+
+
+
+2CGkQxRb*K8nb2s
+
